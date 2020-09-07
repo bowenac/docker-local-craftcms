@@ -47,7 +47,7 @@ Add/Edit the following database settings
 -   DB_DATABASE=craftcms
 -   DB_USER=root
 
-**_ NOTE: If you modified the Docker .env above make sure to update DB_DATABASE and DB_USER with those values. _**
+** NOTE: If you modified the Docker .env above make sure to update DB_DATABASE and DB_USER with those values. **
 
 Now lets spin up the docker container
 
@@ -55,7 +55,9 @@ Now lets spin up the docker container
 
 ## Done
 
-You should be able to access both CraftCMS, and phpMyAdmin installations with the configured IP in the browser address. By default it is `http://127.0.0.1`
+You should be able to access both CraftCMS, and phpMyAdmin installations with the configured IP in the browser address. 
+
+By default it is `http://127.0.0.1`
 
 -   Install/Access CraftCMS [http://127.0.0.1/admin](http://127.0.0.1/admin)
 -   Access phpMyAdmin [http://127.0.0.1:8080](http://127.0.0.1:8080) user root, password you set in .env
