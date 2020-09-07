@@ -46,8 +46,9 @@ Add/Edit the following database settings
 -   DB_PORT=3306
 -   DB_DATABASE=craftcms
 -   DB_USER=root
+-   DB_PASSWORD=password
 
-**NOTE: If you modified the Docker .env above make sure to update DB_DATABASE and DB_USER with those values.**
+**NOTE: If you modified the Docker .env above make sure to update DB_DATABASE and DB_PASSWORD with those values.**
 
 Now lets spin up the docker container
 
