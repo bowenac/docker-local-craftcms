@@ -18,7 +18,7 @@ services:
         depends_on:
             - db
         image: phpmyadmin:latest
-        container_name: ${PROJECT_NAME}-db-admin
+        container_name: ${PROJECT_NAME}_db_admin
         restart: always
         ports:
             - ${IP}:8080:80
@@ -28,7 +28,7 @@ services:
 
     db:
         image: mysql:latest # or mariadb https://hub.docker.com/_/mariadb
-        container_name: ${PROJECT_NAME}-db
+        container_name: ${PROJECT_NAME}_db
         volumes:
             - ./db_data:/var/lib/mysql # to persits database so we do not lose data when stop/starting container
         ports:
